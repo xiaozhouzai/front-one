@@ -1,0 +1,99 @@
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略编辑器和IDE生成的文件
+*.swp
+*.swo
+*.swn
+*.log
+*.lock
+*.tmp
+*.bak
+*.orig
+*.rej
+*~
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+*.ipynb_checkpoints/
+
+# 忽略Node.js相关的文件
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# 忽略构建工具生成的文件
+dist/
+build/
+out/
+public/
+*.map
+
+# 忽略测试相关的文件
+coverage/
+test-results/
+
+# 忽略环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 忽略VS Code工作区文件
+.vscode/
+*.code-workspace
+
+# 忽略Docker相关文件
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# 忽略其他工具生成的文件
+.cache/
+*.sublime-project
+*.sublime-workspace
+*.eslintrc
+*.eslintignore
+*.stylelintrc
+*.stylelintignore
+*.editorconfig
+*.prettierrc
+*.prettierignore
+*.babelrc
+*.browserslistrc
+*.flowconfig
+*.tsconfig
+*.jsconfig
+*.yarnclean
+
+# 忽略临时文件和备份文件
+*.old
+
+# 忽略日志文件
+
+# 忽略IDE相关文件
+.idea/
+.project
+.classpath
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# 忽略其他特定工具或框架生成的文件
+.gitattributes
+.gitmodules
+*.json5
+*.lock.json
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.der
+*.jks
+*.keystore
